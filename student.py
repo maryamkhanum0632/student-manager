@@ -18,14 +18,14 @@ while True:
         for student in students:
             print(student)
 
-            elif choice == "4":
+    elif choice == "4":
         name = input("Enter student name to delete: ")
 
-    if name in students:
-        students.remove(name)
-        print("Student deleted!")
-    else:
-        print("Student not found!")
+        if name in students:
+            students.remove(name)
+            print("Student deleted!")
+        else:
+            print("Student not found!")
 
     elif choice == "3":
         print("Goodbye!")
