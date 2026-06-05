@@ -4,6 +4,7 @@ while True:
     print("\n1. Add Student")
     print("2. View Students")
     print("3. Exit")
+    print("4. Delete Student")
 
     choice = input("Enter choice: ")
 
@@ -16,6 +17,15 @@ while True:
         print("\nStudents:")
         for student in students:
             print(student)
+
+            elif choice == "4":
+        name = input("Enter student name to delete: ")
+
+    if name in students:
+        students.remove(name)
+        print("Student deleted!")
+    else:
+        print("Student not found!")
 
     elif choice == "3":
         print("Goodbye!")
