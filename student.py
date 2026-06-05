@@ -34,4 +34,4 @@ while True:
     else:
         print("Invalid choice!")
 
-print("Welcome to Student Manager")
+        print("Welcome from GitHub")
