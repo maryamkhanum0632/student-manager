@@ -1,7 +1,7 @@
 students = []
 
 while True:
-    print("\n1. Add new student")
+    print("\n1. Add new students")
     print("2. View Students")
     print("3. Exit")
     print("4. Delete Student")
